@@ -1,0 +1,13 @@
+.Layout {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+
+/* Each child component in Layout component will beflex-box and will occupy whole height */
+.Layout main {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}

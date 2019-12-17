@@ -1,0 +1,36 @@
+.Auth {
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    flex-grow: 1;
+    width: 100%;
+    /* background: linear-gradient(270deg, #cef2fa 0%, #59bfef 100%); */
+    background: linear-gradient(270deg, #68A7DE 0%, #689EDE 100%);
+}
+
+
+/* Only to first <div/> child  */
+.Auth > div {
+    width: 100%;
+    max-width: 600px;
+    padding: 0 20px;
+}
+
+
+.Auth h1 {
+    color: #FF7133;
+    text-align: center;
+    /* background: #52B978; */
+    background: linear-gradient(270deg, #cef2fa 0%, #59bfef 100%);
+    /* width: 100%; */
+}
+
+.AuthForm {
+    /* background: #eee; */
+    background: #72D4A8;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, .5);
+    padding: 15px;
+    border-radius: 8px;
+    /* width: 90%;
+    margin-left: 5%; */
+}
